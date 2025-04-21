@@ -1,0 +1,14 @@
+@relation TestForWeka
+
+@attribute 'App Category' {'Social Media',Communication,Gaming,Entertainment,'Internet Browsing',Elearning,Shopping,Delivery}
+@attribute 'Usage (hours)' numeric
+@attribute 'Access count' numeric
+@attribute 'average_time_per_access (Minutes)' numeric
+@attribute 'average_time_per_day (Minutes)' numeric
+
+@data
+'Social Media',300,6000,3.0,100.0
+Communication,140,6300,1.3,44.0
+Communication,100,5800,1.0,32.0
+Gaming,80,500,9.0,25.0
+Entertainment,80,1200,3.8,24.0

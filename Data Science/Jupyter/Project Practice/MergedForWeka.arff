@@ -1,0 +1,43 @@
+@relation MergedForWeka
+
+@attribute 'App Category' {'Social Media',Communication,Gaming,Entertainment,'Internet Browsing',Elearning,Shopping,Delivery,Navigation,Tools}
+@attribute 'Usage (hours)' numeric
+@attribute 'Access count' numeric
+@attribute 'average_time_per_access (Minutes)' numeric
+@attribute 'average_time_per_day (Minutes)' numeric
+
+@data
+'Social Media',329,6141,3.21446,102.279793
+Communication,145,6366,1.366635,45.07772
+Communication,105,5843,1.078213,32.642487
+Gaming,85,545,9.357798,26.42487
+Entertainment,82,1275,3.858824,25.492228
+'Internet Browsing',43,501,5.149701,13.367876
+Elearning,26,411,3.79562,8.082902
+'Internet Browsing',26,230,6.782609,8.082902
+'Internet Browsing',22,1256,1.050955,6.839378
+Entertainment,18,440,2.454545,5.595855
+Entertainment,17,210,4.857143,5.284974
+Shopping,11,526,1.254753,3.419689
+Elearning,8,1024,0.46875,2.487047
+Delivery,8,268,1.791045,2.487047
+Delivery,8,338,1.420118,2.487047
+Elearning,7,105,4,2.176166
+Entertainment,5,555,0.540541,1.554404
+'Social Media',4,263,0.912548,1.243523
+Navigation,4,178,1.348315,1.243523
+Gaming,4,252,0.952381,1.243523
+Navigation,4,307,0.781759,1.243523
+Tools,4,382,0.628272,1.243523
+Tools,3,215,0.837209,0.932642
+Shopping,3,111,1.621622,0.932642
+Tools,3,514,0.350195,0.932642
+Tools,2,664,0.180723,0.621762
+Communication,2,613,0.195759,0.621762
+Tools,2,329,0.364742,0.621762
+Entertainment,2,315,0.380952,0.621762
+Tools,1,138,0.434783,0.310881
+Communication,1,161,0.372671,0.310881
+Tools,1,76,0.789474,0.310881
+Elearning,1,41,1.463415,0.310881
+Entertainment,1,36,1.666667,0.310881
